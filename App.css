@@ -1,0 +1,74 @@
+.ride-container {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+}
+
+.ride-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ride-form h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.date-time-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-time-group .input-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.date-time-group .input-group:last-child {
+  margin-right: 0;
+}
+
+.search {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ride-map {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ride-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
