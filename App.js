@@ -26,7 +26,7 @@ export default function App() {
 
 function Directions() {
   const map = useMap();
-  const routesLibrary = useMapsLibrary("routes");
+  const routesLibrary = useMapsLibrary("routes"); //test
   const [directionsService, setDirectionsService] = useState(null);
   const [directionsRenderer, setDirectionsRenderer] = useState(null);
   const [routes, setRoutes] = useState([]); // No type annotation here
